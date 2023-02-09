@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,43 +7,102 @@
 }
 
 body {
-
+    margin: 0 auto;
+    width: 1440px;
 }
 
 .blog {
-
+    height: 3411px;
 }
 
 .head {
-
+    height: 80px;
+    padding: 16px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .headlogo {
-
+    background-image: url('./Photo/Logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 194px;
+    height: 46.42px;
+    top: 16.79px;
+    left: 160px;
 }
 
 .headukraine {
-
+    background-image: url('./Photo/Stand\ with\ Ukraine.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 184px;
+    height: 24px;
+    margin: 0 172px;
+    gap: 8px;
 }
 
 .headnav {
-
+    width: 400px;
+    height: 24px;
+    gap: 48px;
 }
 
-li {
-    
+.headli1 {
+    list-style-type: none;
+    display: inline-block;
+    width: 96px;
+    margin-right: 43px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 24px;
+    color: #535B5E;
+}
+
+.headli2 {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 43px;
+    width: 66px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 24px;
+    color: #535B5E;
 }
 
 .headgreen {
-
+    list-style-type: none;
+    display: inline-block;
+    width: 56px;
+    margin-right: 43px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 24px;
+    color: #4EBA85;
 }
 
 .headblack {
-
+    list-style-type: none;
+    display: inline-block;
+    width: 37px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .headactive {
-
+    background-image: url('./Photo/Active.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 14px;
+    height: 14px;
+    margin: 7px 10px;
 }
 
 .groupmid {
@@ -49,15 +110,81 @@ li {
 }
 
 .group {
-
+    background-image: url('./Photo/Group\ 9561.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1172.51px;
+    height: 334.33px;
+    margin-left: 141px;
+    margin-top: 171.47px;
+    
 }
 
 .midnav {
+    width: 707px;
+    height: 24px;
+    margin: 75px 360px;
+}
 
+.midpartner {
+    color: #535B5E;
+    width: 158px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    Font-size: 18px;
+    line-height: 24px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.midli {
+    color: #535B5E;
+    width: 68px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    Font-size: 18px;
+    line-height: 24px;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 59px;
+}
+
+.midcase {
+    color: #535B5E;
+    width: 118px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    Font-size: 18px;
+    line-height: 24px;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 59px;
+}
+
+.midblack {
+    color: #535B5E;
+    width: 24px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    Font-size: 18px;
+    line-height: 24px;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 59px;
 }
 
 .vector {
-
+    background-image: url('./Photo/Vector.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 4px;
+    height: 40px;
+    transform: rotate(90deg);
+    background-image: #48C287;
+    border-radius: 1px;
+    margin: 0 6px;
 }
 
 .articleimg {
@@ -152,10 +279,6 @@ li {
 
 }
 
-.articletime {
-
-}
-
 .midimg {
 
 }
@@ -164,37 +287,266 @@ li {
     
 }
 
+.midimgphoto1 {
 
+}
 
+.mid-btn1 {
 
+}
 
+.btnmid1 {
 
+}
 
+.mid-btn2 {
 
+}
 
+.btnmid2 {
 
+}
 
+.mid-btn3 {
 
+}
 
+.btnmid3 {
+    
+}
 
+.h3txt1 {
 
+}
 
+.midtxt1 {
 
+}
 
+.midtxttime {
 
+}
 
+.midphoto2 {
 
+}
 
+.midimgphoto2 {
 
+}
 
+.mid-btn1 {
 
+}
 
+.btnmid1 {
 
+}
 
+.mid-btn2 {
 
+}
 
+.btnmid2 {
 
+}
 
+.mid-btn3 {
 
+}
 
+.btnmid3 {
 
+}
+
+.midphoto3 {
+
+}
+
+.midimgphoto3 {
+
+}
+
+.mid-btn131 {
+
+}
+
+.btnmid131 {
+
+}
+
+.mid-btn132 {
+
+}
+
+.btnmid132 {
+
+}
+
+.mid-btn133 {
+
+}
+
+.btnmid133 {
+
+}
+
+.midphoto4 {
+
+}
+
+.midimgphoto4 {
+    
+}
+
+.mid-btn141 {
+
+}
+
+.btnmid141 {
+
+}
+
+.mid-btn142 {
+
+}
+
+.btnmid142 {
+
+}
+
+.midphoto5 {
+
+}
+
+.midimgphoto5 {
+
+}
+
+.midphoto6 {
+
+}
+
+.midimgphoto6 {
+
+}
+
+.loadp {
+
+}
+
+.loadbtn {
+
+}
+
+.loadbtn::after {
+
+}
+
+.register {
+
+}
+
+.registerback {
+
+}
+
+.Ellipse15 {
+
+}
+
+.Ellipse13 {
+
+}
+
+.Ellipse14 {
+
+}
+
+.Vector1 {
+
+}
+
+.Grouptik {
+
+}
+
+.Vector2 {
+
+}
+
+.Green3 {
+
+}
+
+.Red3 {
+
+}
+
+.Blueball {
+
+}
+
+.registerform {
+
+}
+
+.rgsttxt {
+
+}
+
+.registertxt {
+
+}
+
+.name {
+
+}
+
+.buttonregister {
+    
+}
+
+.send {
+
+}
+
+footer {
+
+}
+
+.footerlogo {
+
+}
+
+.contact {
+
+}
+
+.contacttxt1 {
+
+}
+
+.contacttxt2 {
+
+}
+
+.follow {
+
+}
+
+.social {
+
+}
+
+.flntxt {
+
+}
+
+.end {
+
+}
+
+.endtxt {
+
+}
