@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -694,42 +694,6 @@ body {
 
 }
 
-.Ellipse15 {
- 
-}
-
-.Ellipse13 {
-
-}
-
-.Ellipse14 {
-
-}
-
-.Vector1 {
-
-}
-
-.Grouptik {
-
-}
-
-.Vector2 {
-
-}
-
-.Green3 {
-
-}
-
-.Red3 {
-
-}
-
-.Blueball {
-
-}
-
 .registerform {
     margin: 63px 467px 97px;
     width: 503px;
@@ -751,16 +715,16 @@ h4 {
 .rgsttxt {
     width: 375px;
     height: 110px;
-    padding: 56px 64px 32px;
+    padding: 56px 64px 32px 64px;
 }
 
 .registertxt {
     padding-top: 32px;
-    width: 369px;
+    width: 380px;
     height: 42px;
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 21px;
     text-transform: capitalize;
     color: #FDFDFD;
@@ -770,13 +734,18 @@ h4 {
     padding: 32px 64px;
     width: 375px;
     height: 213px;
+    margin: 50px 64px 32px 64px;
 }
  
 .name1 {
-    margin-top: 32px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #9595AB;
 }
 
-.name, .name1 {
+.name {
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 16px;
@@ -789,29 +758,21 @@ h4 {
     background: #FDFDFD;
 }
 .buttonregister {
-    text-align: center;
-    width: 46px;
-    height: 25px;
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    color: #FFFFFF;
+    background-image: url('./Photo/Button.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 148px;
+    height: 56px;
+    margin: 0 177.5px;
 }
-.send {
-    margin: 64px 178px;
-    padding: 16px 32px;
-    background-color: #4EBA85;
-    height: 0px;
-    border: 1.5px none #FFFFFF;
-    border-radius: 1px;
-}   
 
 footer {
     width: 1440px;
-    height: 388px;
+    height: 352px;
     background-color: #1C2B32;
     display: flex;
+    justify-content: space-eve;
 }
 
 .footerlogo {
@@ -819,16 +780,17 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 180px;
+    width: 119px;
     height: 81px;
-    margin: 160px 100px 215px 302px  ;
+    margin: 91px 160px 0 140px;
 }
 
 .contact {
-    margin: 91px 116px;
+    margin: 91px 0 0 116px;
     width: 370px;
     color: white;
     height: 181px;
+
 }
 
 h5 {
@@ -852,6 +814,7 @@ h5 {
     line-height: 25px;
     color: #9595AB;
     padding: 22px 0;
+    margin-bottom: 60px;
 }
 
 .contacttxt2 {
@@ -869,22 +832,58 @@ span {
     width: 240px;
 }
 
-.follow {
+h6 {
+    width: 104px;
+    height: 33px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    text-transform: capitalize;
+}
 
+.follow {
+    margin: 91px 80px 0 185px;
+    color: white;
+    width: 250px;
 }
 
 .social {
-
+    background-image: url('./Photo/Icons\ social\ media.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 184px;
+    height: 24px;
+    margin-bottom: 48px;
 }
 
 .flntxt {
-
+    width: 231px;
+    height: 63px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #FDFDFD;
 }
 
 .end {
-
+    width: 1440px;
+    height: 36px;
+    background-color: gray
 }
 
 .endtxt {
-
+    width: 1440px;
+    height: 20px;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF; 
+    padding-top: 8px;
+    text-align: center;
 }
